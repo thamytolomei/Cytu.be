@@ -1,0 +1,169 @@
+/*MOTD*/
+<section>
+    <br>
+   
+    <div id="pies" style="position:relative;color:transparent">
+      <img src="https://fauux.neocities.org/mebious_icon_02.gif" style="margin:0 auto" />
+     <div id="xx"> <h2 style="position:absolute;top:25px;left:0;font-size:50px;width:100%"></h2></div>
+      <h1 style="position:absolute;top:365px;left:0;width:100%;font-size:100px"><img src="$" />
+</h1>
+    </div>
+  </section>
+
+  /*CSS*/
+
+  @iamport url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+.chat-msg-random .username {
+    font-size: 0.000000001px;
+}
+.chat-msg-random .username:before {
+    font-size: 16px;
+    color: #c77b98;
+    content: "random: ";
+    font-family: 'Gloria Hallelujah';
+}
+.chat-msg .username {
+    font-size: 0.000000001px;
+}
+
+/*foundation stuff */
+
+body {
+    background-image: url('https://fauux.neocities.org/bg205.gif');
+    background-color:black;
+}
+
+.navbar {
+    background: rgba(57, 70, 74, 0.3) !important;
+    opacity: 1;
+    font-family: 'Gloria Hallelujah', cursive !important;
+    border-bottom: none !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    border-color: #d45384;
+    background: rgba(255, 121, 199, 0.288);
+}
+.navbar-inverse .navbar-nav>li>ul>li>a:hover {
+    border-color: #d45389;
+    background: rgba(255, 121, 199, 0.288);
+}
+
+#mainpage{
+    padding-top:20px;
+}
+#motdwrap {
+    background: none;
+}
+#togglemotd {
+    display: none;
+}
+.dropdown-menu {
+    background: #0F0F0F;
+}
+.modal-content {
+    background: rgba(168, 64, 95, 0.562);
+    border-radius: 4px;
+}
+.btn {
+    background: rgba(0, 0, 0, 0.6);
+}
+.btn:hover {
+    color: #d45384 !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+#userlist {
+    font-family: 'Gloria Hallelujah';
+    color: rgb(121, 73, 165) !important;
+    background-image: url('http://i.imgur.com/Dv9c588.gif');
+    overflow: hidden;
+    width: 110px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.userlist_owner {
+    color: #8b093f !important;
+    font-size: 14px;
+}
+
+#chatheader {
+    border: none;
+    color:#d45384;
+}
+
+#messagebuffer {
+    background-color: #1413133b;
+}
+
+#currenttitle {
+    color:#d45384;
+}
+
+form #chatline {
+    border-color:#d45384;
+}
+
+input.form-control[type="text"], input.form-control[type="password"], input.form-control[type="email"], textarea.form-control{
+    background-color:#1413133b;
+}
+
+#pollwrap .well {
+    background: none !important;
+    color: #8b093f;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.queue {
+    border-style: hidden;
+    background: none;
+}
+.queue_active {
+    color: rgb(156, 83, 190) !important;
+    border-color: #d45384;
+}
+
+#queue>li {
+    background: none;
+    border-style: none;
+    border-bottom: solid 0.5px !important;
+}
+
+#plmeta {
+    border-style: hidden;
+    color:#9357a5 !important;
+}
+
+.timestamp {
+    color:#9357a5;
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #FFFFFF !important;
+    display: block !important;
+    font-size: 9px !important;
+    height: 20px !important;
+}
+
+
+/* miscellaneous*/
+
+.btan-group-vertical>.btn:not(:first-child):not(:last-child) {
+    display: none;
+}
+.text-muted {
+    display: none;
+}
+.glyphicon-star-empty {
+    font-size: 0.00000000000001px;
+}
+.glyphicon-star-empty:before {
+    font-size: 20px;
+    margin-right:2px;
+    margin-left:2px;
+    content: '★';
+}
+
